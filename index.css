@@ -1,0 +1,83 @@
+nav {
+    height: 80px;
+    padding: 0 300px;
+    background-color: #000000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #ffffff;
+    font-weight: 800;
+}
+
+.nav_logo_area {
+}
+
+.menu_link_area {
+    width: 500px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.menu_link_area a {
+    text-decoration: none;
+    font-weight: 800;
+}
+
+.menu_link_area a:link, 
+.menu_link_area a:visited,
+.menu_link_area a:active{
+    color: #ffffff;
+}
+
+.menu_link_area a:hover {
+    color: #1cc541;
+}
+
+main {
+    height: 968px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #1cc541;
+    background-color: #141c91;
+    background-image: url(https://www-growth.scdn.co/static/home/bursts.svg);
+    background-size: 160%;
+    background-position: center 0;
+}
+
+.main_content_area {
+    width: 1200px;
+    height: 500px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.main_content_area .main_massage_1 {
+    font-size: 150px;
+    font-weight: 800;
+    align-self: flex-start;
+}
+
+.main_content_area .main_massage_2 {
+    font-size: 150px;
+    font-weight: 800;
+    align-self: flex-end;
+}
+
+.main_content_area .main_massage_3 {
+    align-self: center;
+}
+
+.main_content_area .main_button {
+    width: 180px;
+    height: 50px;
+    align-self: center;
+    font-size: 15px;
+    font-weight: 600;
+    color: #141c91;
+    background-color: #1cc541;
+    border: 0;
+    border-radius: 25px;
+}
